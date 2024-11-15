@@ -7,7 +7,6 @@ MACHINE_FEATURES = " opengles opencl hwh264enc hwh264dec hwh265enc hwh265dec"
 IMAGE_FSTYPES:append = " tar.bz2 ext4"
 
 # Configuration for ARM Trusted Firmware
-BL2_BASE = "0x08103000"
 EXTRA_IMAGEDEPENDS += " trusted-firmware-a"
 
 # flash writer
