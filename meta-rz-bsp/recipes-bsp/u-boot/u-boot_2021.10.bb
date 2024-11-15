@@ -1,10 +1,10 @@
 require u-boot-renesas.inc
 
-COMPATIBLE_MACHINE = "(rzg2l-family)"
+COMPATIBLE_MACHINE = "(rzg2l-family|rzv2h-family)"
 
 UBOOT_URI = "git://github.com/renesas-rz/renesas-u-boot-cip.git;protocol=https"
-UBOOT_BRANCH = "v2021.10/rz"
-UBOOT_REV ?= "5141064c1552accaf69c6f509bf21b2063b9cff5"
+UBOOT_BRANCH = "v2021.10/rzv2n"
+UBOOT_REV ?= "e1f6b8f5509055a5df05c2345e5f901c4bacfd5c"
 
 PV = "v2021.10+git${SRCPV}"
 
